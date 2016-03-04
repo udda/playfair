@@ -1,0 +1,19 @@
+- choice of letter to remove (I/J or Q, or maybe custom letter)
+
+- more matrix transform patterns (eg. S-shape row1>,row2<,row3>,row4<,row5>)
+
+- autodetect ansi_terminal, and allow force enable/disable in options
+
+- ansi_terminal: use proper escape sequences in Windows
+
+- echoless input for the key (can be disabled in options)
+
+- Normalize() should handle letters with accent
+
+- interactive mode (is the current behavior with incomplete arguments): should be disabled
+  by default and could be enabled with an option. If disabled (batch mode) application should
+  fail if given incomplete arguments
+
+- check if input for -r and -d have odd number of characters
+
+- switch to getopts in main()

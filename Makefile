@@ -1,5 +1,8 @@
-CC=gdc
 CFLAGS=-c -Wall -O3
+
+ifndef CC
+	CC=gdc
+endif
 
 all: playfair
 playfair: core.o locale.o main.o matrix.o

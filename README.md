@@ -21,13 +21,16 @@ This is a full implementation of Playfair cipher, with some additions to the ori
 ### How to build
 The application is written in D language version 1. Since it is a simple program that does not use any advanced feature of the language, it should compile flawlessly with every D v1/v2 compiler (dmd, gdc, ldc, ...)
 
-Requirements: a D compiler. I think any D compiler will be just fine, but I have tried only gdc.
+##### Requirements
+A D compiler. I think any D compiler will be just fine, but I have tried only gdc.
 
-How to compile:
+##### How to compile
 
 - If you choose a compiler different from gdc, run *make CC=newcompiler*
 - If you are fine with gdc, simply run *make*
 
-How to install: *make install*
+##### How to install
+Run *make install*. You may need root access.
 
-How to uninstall: *make uninstall*
+##### How to uninstall
+Run *make uninstall*. You may need root access.

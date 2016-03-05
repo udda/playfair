@@ -9,6 +9,7 @@ The technique encrypts pairs of letters (bigrams or digrams), instead of single 
 
 Full article on [Wikipedia](https://en.wikipedia.org/wiki/Playfair_cipher)
 
+![Lord Lyon Playfair](https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Lyon_Playfair.jpg/192px-Lyon_Playfair.jpg "Lord Lyon Playfair")
 
 ### Application
 This is a full implementation of Playfair cipher, with some additions to the original specifications. It can:
